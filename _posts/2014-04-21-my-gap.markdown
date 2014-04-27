@@ -5,8 +5,8 @@ date:   2014-04-21
 category: page
 ---
 
-<p>My Gap: A library of files that allow me to start new website projects quickly.</p>
-<p>Whenever I start a new web project, I have to recreate the folder structure and rewrite the required sass files every time. I want to design a workflow that allows me to re-use the basic components every time I start a new project.</p>
+<p>My Gap: A cheap standing desk solution that also has some cable organisation built-in.</p>
+<p>There has been many articles written on the harmful effects of sitting all day. But the standing desk solutions available commercially are pretty expensive.</p>
 <p>This gap affects the other members of my team as well.</p>
-<p>I plan to design and develop a basic framework for my future web projects.</p>
+<p>I plan to try to use cheap yet sturdy materials to make a standing desk extension to existing normal desks.</p>
 
