@@ -5,7 +5,7 @@ subtitle: "Design: Creation of Artifacts in Society"
 ---
 <section class="main">
   <div class="gap">
-    <a href="/my-gap.html"><img src="http://placehold.it/200x200/000000&text=My+Gap" alt="My Gap" class="round"></a>
+    <a href="{{ site.baseurl }}/my-gap.html"><img src="http://placehold.it/200x200/000000&text=My+Gap" alt="My Gap" class="round"></a>
   </div>
   <div class="tabs-wrapper">
     <input type="radio" name="tab" id="tab1" class="tab-head" checked="checked"/>
@@ -28,7 +28,7 @@ subtitle: "Design: Creation of Artifacts in Society"
         <ul>
           {% for post in site.categories.week-1 reversed %}
           <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           </li>
           {% endfor %}
         </ul>
