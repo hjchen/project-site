@@ -5,4 +5,14 @@ subtitle: "Visual Expression I: The Basics"
 date:   2014-04-21
 category: week-1
 ---
-<img src="{{ site.baseurl }}/img/chair.jpg" alt="Sketch of Chair">
+
+<p>A simple sketch of a chair.</p> <!-- more -->
+<img src="{{ site.baseurl }}/img/chair.jpg" alt="Sketch of Chair"> 
+<p>Week 1 Questions</p>
+<ul>
+  {% for post in site.categories.week-1 reversed %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

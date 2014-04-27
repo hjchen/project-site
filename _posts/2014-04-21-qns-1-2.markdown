@@ -6,6 +6,7 @@ date:   2014-04-21
 category: week-1
 ---
 
+<p>My list of gaps.</p> <!-- more -->
 <ol>
   <li>A way to organise all the different charging cables and accessories for gadgets</li>
   <li>A way to control my light switch from my bed</li>
@@ -18,3 +19,11 @@ category: week-1
   <li>Something that allows me to pick the shirt at the bottom of the pile so all my shirts can be rotated equally.</li>
   <li>A better way to be visible to motorists while cycling.</li>
 </ol>
+<p>Week 1 Questions</p>
+<ul>
+  {% for post in site.categories.week-1 reversed %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

@@ -5,6 +5,12 @@ date:   2014-04-21
 category: week-1
 ---
 
-<p>Marshmallow sweet roll ice cream biscuit bear claw. Jelly-o pastry tiramisu chocolate cake cotton candy cheesecake sweet roll lollipop. Sweet icing lollipop jelly sweet gingerbread powder cheesecake. <!-- more -->Cookie lemon drops applicake applicake. Pastry carrot cake powder dessert icing sweet roll dragée. Apple pie sweet roll chocolate bar pastry liquorice. Bear claw dragée marshmallow gingerbread dessert applicake chupa chups. Bonbon bonbon apple pie powder carrot cake apple pie dessert topping.</p>
-<p>Donut halvah carrot cake cookie cotton candy chocolate bar. Dragée gummies jujubes jujubes cupcake wafer carrot cake sweet roll cheesecake. Macaroon macaroon oat cake dessert macaroon danish liquorice. Carrot cake pudding bonbon pudding biscuit topping. Tiramisu gingerbread sesame snaps jujubes bear claw liquorice oat cake. Liquorice jelly chocolate toffee icing.</p>
-<p>Cake powder jelly-o biscuit pastry carrot cake. Cheesecake marshmallow brownie liquorice chupa chups chupa chups. Topping jujubes chocolate cake. Jujubes jelly-o lollipop jelly beans macaroon sweet chupa chups. Gummi bears muffin lollipop cake caramels pie. Applicake tootsie roll oat cake apple pie gingerbread.</p>
+<p>Marshmallow sweet roll ice cream biscuit bear claw. Jelly-o pastry tiramisu chocolate cake cotton candy cheesecake sweet roll lollipop. Sweet icing lollipop jelly sweet gingerbread powder cheesecake.</p> <!-- more -->
+<p>Week 1 Questions</p>
+<ul>
+  {% for post in site.categories.week-1 reversed %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
