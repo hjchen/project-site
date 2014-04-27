@@ -1,7 +1,56 @@
 ---
 layout: default
-title: Project Website
+title: Jing's Project Website
 subtitle: "Design: Creation of Artifacts in Society"
 ---
-
-Is this thing on?
+<section class="main">
+  <div class="gap">
+    <a href="/my-gap.html"><img src="http://placehold.it/200x200/000000&text=My+Gap" alt="My Gap" class="round"></a>
+  </div>
+  <div class="tabs-wrapper">
+    <input type="radio" name="tab" id="tab1" class="tab-head" checked="checked"/>
+    <label for="tab1"><span class="hide">Week </span>1</label>
+    <input type="radio" name="tab" id="tab2" class="tab-head" />
+    <label for="tab2"><span class="hide">Week </span>2</label>
+    <input type="radio" name="tab" id="tab3" class="tab-head" />
+    <label for="tab3"><span class="hide">Week </span>3</label>
+    <input type="radio" name="tab" id="tab4" class="tab-head" />
+    <label for="tab4"><span class="hide">Week </span>4</label>
+    <input type="radio" name="tab" id="tab5" class="tab-head" />
+    <label for="tab5"><span class="hide">Week </span>5</label>
+    <input type="radio" name="tab" id="tab6" class="tab-head" />
+    <label for="tab6"><span class="hide">Week </span>6</label>
+    <input type="radio" name="tab" id="tab7" class="tab-head" />
+    <label for="tab7"><span class="hide">Week </span>7</label>
+    <div class="tab-body-wrapper">
+      <div id="tab-body-1" class="tab-body">
+        <h3><a href="/week-1.html">Week 1</a></h3>
+        <ul>
+          {% for post in site.categories.week-1 reversed %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div id="tab-body-2" class="tab-body">
+        <p>Coming soon.</p>
+      </div>
+      <div id="tab-body-3" class="tab-body">
+        <p>Coming soon.</p>
+      </div>
+      <div id="tab-body-4" class="tab-body">
+        <p>Coming soon.</p>
+      </div>
+      <div id="tab-body-5" class="tab-body">
+        <p>Coming soon.</p>
+      </div>
+      <div id="tab-body-6" class="tab-body">
+        <p>Coming soon.</p>
+      </div>
+      <div id="tab-body-7" class="tab-body">
+        <p>Coming soon.</p>
+      </div>
+    </div>
+  </div>
+</section>

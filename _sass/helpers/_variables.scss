@@ -1,0 +1,45 @@
+// Legacy IE support
+$legacy-support-for-ie6: false;
+$legacy-support-for-ie7: false;
+$legacy-support-for-ie8: true;
+
+// Font sizes
+$base-font-size:   16px; // The font size set on the root html element.
+$base-line-height: 24px; // This line-height determines the basic unit of vertical rhythm.
+
+$h1-font-size: 2    * $base-font-size;
+$h2-font-size: 1.5  * $base-font-size;
+$h3-font-size: 1.17 * $base-font-size;
+$h4-font-size: 1    * $base-font-size;
+$h5-font-size: 0.83 * $base-font-size;
+$h6-font-size: 0.67 * $base-font-size;
+
+// Font-stacks
+@import url(http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic|Slackey);
+
+$ropa:         "Ropa Sans", "Lucida Console", monospace, sans-serif;
+$slackey:      "Slackey", "Apple Chancery", "Monotype Corsiva", Georgia, cursive;
+
+// Font Variables
+$font-body:        $ropa;
+$font-header:      $slackey;
+
+// Colors, etc.
+$grey: #ededed;
+$red: #d42828;
+$orange: #ff9500;
+$yellow: #ffee00;
+$green: #009905; 
+$blue: #005eff; 
+$indigo: #4b0082;
+$violet: #aa00ff; 
+
+// The amount lists, blockquotes and comments are indented.
+$indent-amount: 30px;
+
+// The height of the navigation container.
+$nav-height: 3em;
+
+// Tab styling.
+$tab-delimiter-line-height: 5px;
+$tab-label-height: 3em;

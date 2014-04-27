@@ -1,0 +1,166 @@
+@include keyframe(content-opacity) {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@include keyframe(show) {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tabs-wrapper {
+  margin: rhythm(1) rhythm(1) rhythm(2) rhythm(1);
+  text-align: center;
+  input[type=radio] {
+    display: none;
+  }
+  label {
+    transition: background 0.8s ease-in-out, height 0.2s linear;
+    display: inline-block;
+    cursor: pointer;
+    width: percentage(1/8);
+    height: $tab-label-height;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: $grey;
+    text-align: center;
+    line-height: rhythm(2);
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+}
+
+.hide {
+  display: none;
+  @include bp(med) {
+    display: inline;
+  }
+}
+
+#tab1, #tab2, #tab3, #tab4, #tab5, #tab6, #tab7 {
+  &:checked {
+    + label {
+      font-weight: 600;
+    }
+  }
+}
+
+#tab1 {
+  &:checked {
+    + label {
+      background: $red;
+    }
+  }
+}
+
+#tab2 {
+  &:checked {
+    + label {
+      background: $orange;
+    }
+  }
+}
+
+#tab3 {
+  &:checked {
+    + label {
+      background: $yellow;
+    }
+  }
+}
+
+#tab4 {
+  &:checked {
+    + label {
+      background: $green;
+    }
+  }
+}
+
+#tab5 {
+  &:checked {
+    + label {
+      background: $blue;
+    }
+  }
+}
+
+#tab6 {
+  &:checked {
+    + label {
+      background: $indigo;
+      color: white;
+    }
+  }
+}
+
+#tab7 {
+  &:checked {
+    + label {
+      background: $violet;
+    }
+  }
+}
+
+.tab-body {
+  position: absolute;
+  top: -9999px;
+  opacity: 0;
+  padding: rhythm(1);
+}
+
+.tab-body-wrapper {
+  background: $grey;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 5px;
+  @include animation(0.2s, 1.5s, show);
+}
+
+#tab-body-1 {
+  border-top: $red $tab-delimiter-line-height solid;
+}
+
+#tab-body-2 {
+  border-top: $orange $tab-delimiter-line-height solid;
+}
+
+#tab-body-3 {
+  border-top: $yellow $tab-delimiter-line-height solid;
+}
+
+#tab-body-4 {
+  border-top: $green $tab-delimiter-line-height solid;
+}
+
+#tab-body-5 {
+  border-top: $blue $tab-delimiter-line-height solid;
+}
+
+#tab-body-6 {
+  border-top: $indigo $tab-delimiter-line-height solid;
+}
+
+#tab-body-7 {
+  border-top: $violet $tab-delimiter-line-height solid;
+}
+
+#tab1:checked ~ .tab-body-wrapper #tab-body-1,
+#tab2:checked ~ .tab-body-wrapper #tab-body-2,
+#tab3:checked ~ .tab-body-wrapper #tab-body-3,
+#tab4:checked ~ .tab-body-wrapper #tab-body-4,
+#tab5:checked ~ .tab-body-wrapper #tab-body-5,
+#tab6:checked ~ .tab-body-wrapper #tab-body-6,
+#tab7:checked ~ .tab-body-wrapper #tab-body-7 {
+  position: relative;
+  top: 0;
+  @include animation(0.2s, 0.8s, content-opacity); 
+}
