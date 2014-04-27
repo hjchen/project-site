@@ -6,5 +6,5 @@ date:   2014-04-21
 category: week-1
 ---
 
-<img src="../img/bicycle.jpg" alt="Bicycle">
+<img src="{{ site.baseurl }}/img/bicycle.jpg" alt="Bicycle">
 <p>This is a photo of my bicycle. It's a 3-speed internal gearhub Muji commuter bike. I've used it as my main form of transport for many years now, and it hasn't failed me yet. Cycling to and from work is the best part of my day.</p>
