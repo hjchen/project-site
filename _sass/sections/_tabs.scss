@@ -25,7 +25,7 @@
     transition: background 0.8s ease-in-out, height 0.2s linear;
     display: inline-block;
     cursor: pointer;
-    width: percentage(1/8);
+    width: percentage(1/9);
     height: $tab-label-height;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -45,7 +45,7 @@
   }
 }
 
-#tab1, #tab2, #tab3, #tab4, #tab5, #tab6, #tab7 {
+#tab1, #tab2, #tab3, #tab4, #tab5, #tab6, #tab7, #tab8 {
   &:checked {
     + label {
       font-weight: 600;
@@ -110,6 +110,14 @@
   }
 }
 
+#tab8 {
+  &:checked {
+    + label {
+      background: $brown;
+    }
+  }
+}
+
 .tab-body {
   position: absolute;
   top: -9999px;
@@ -153,13 +161,18 @@
   border-top: $violet $tab-delimiter-line-height solid;
 }
 
+#tab-body-8 {
+  border-top: $brown $tab-delimiter-line-height solid;
+}
+
 #tab1:checked ~ .tab-body-wrapper #tab-body-1,
 #tab2:checked ~ .tab-body-wrapper #tab-body-2,
 #tab3:checked ~ .tab-body-wrapper #tab-body-3,
 #tab4:checked ~ .tab-body-wrapper #tab-body-4,
 #tab5:checked ~ .tab-body-wrapper #tab-body-5,
 #tab6:checked ~ .tab-body-wrapper #tab-body-6,
-#tab7:checked ~ .tab-body-wrapper #tab-body-7 {
+#tab7:checked ~ .tab-body-wrapper #tab-body-7,
+#tab8:checked ~ .tab-body-wrapper #tab-body-8 {
   position: relative;
   top: 0;
   @include animation(0.2s, 0.8s, content-opacity); 

@@ -5,7 +5,17 @@ date:   2014-04-21
 category: week-1
 ---
 
-<p>Marshmallow sweet roll ice cream biscuit bear claw. Jelly-o pastry tiramisu chocolate cake cotton candy cheesecake sweet roll lollipop. Sweet icing lollipop jelly sweet gingerbread powder cheesecake.</p> <!-- more -->
+<p>There has been a large number of articles recently highlighting the health detriments of sitting all day. But the commercially available standing desks are really expensive. I want to to design a standing desk extension, which can be made with cheap, lightweight materials.</p> <!-- more -->
+<p class="underline">Visual expression of design</p>
+<img src="{{ site.baseurl }}/img/prototype-sketch.jpg" alt="Sketch of Prototype">
+<p class="underline">Photograph of prototype</p>
+<figure>
+  <img src="{{ site.baseurl }}/img/prototype-front.jpg" alt="Front view of Prototype">
+  <figcaption>Front view of prototype</figcaption>
+  <img src="{{ site.baseurl }}/img/prototype-back.jpg" alt="Back view of Prototype">
+  <figcaption>Back view of prototype</figcaption>
+</figure>
+
 <p>Week 1 Questions</p>
 <ul>
   {% for post in site.categories.week-1 reversed %}

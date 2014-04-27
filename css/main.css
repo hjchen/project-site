@@ -451,6 +451,10 @@ ul {
   padding: 0;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 body {
   *zoom: 1;
   width: auto;
@@ -616,7 +620,7 @@ nav:last-child {
   transition: background 0.8s ease-in-out, height 0.2s linear;
   display: inline-block;
   cursor: pointer;
-  width: 12.5%;
+  width: 11.11111%;
   height: 3em;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -637,7 +641,7 @@ nav:last-child {
   }
 }
 
-#tab1:checked + label, #tab2:checked + label, #tab3:checked + label, #tab4:checked + label, #tab5:checked + label, #tab6:checked + label, #tab7:checked + label {
+#tab1:checked + label, #tab2:checked + label, #tab3:checked + label, #tab4:checked + label, #tab5:checked + label, #tab6:checked + label, #tab7:checked + label, #tab8:checked + label {
   font-weight: 600;
 }
 
@@ -668,6 +672,10 @@ nav:last-child {
 
 #tab7:checked + label {
   background: #aa00ff;
+}
+
+#tab8:checked + label {
+  background: #9e4700;
 }
 
 .tab-body {
@@ -728,13 +736,18 @@ nav:last-child {
   border-top: #aa00ff 5px solid;
 }
 
+#tab-body-8 {
+  border-top: #9e4700 5px solid;
+}
+
 #tab1:checked ~ .tab-body-wrapper #tab-body-1,
 #tab2:checked ~ .tab-body-wrapper #tab-body-2,
 #tab3:checked ~ .tab-body-wrapper #tab-body-3,
 #tab4:checked ~ .tab-body-wrapper #tab-body-4,
 #tab5:checked ~ .tab-body-wrapper #tab-body-5,
 #tab6:checked ~ .tab-body-wrapper #tab-body-6,
-#tab7:checked ~ .tab-body-wrapper #tab-body-7 {
+#tab7:checked ~ .tab-body-wrapper #tab-body-7,
+#tab8:checked ~ .tab-body-wrapper #tab-body-8 {
   position: relative;
   top: 0;
   -webkit-animation-delay: 0.2s;
