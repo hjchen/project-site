@@ -440,6 +440,9 @@ a {
   text-decoration: none;
   color: black;
 }
+a:hover {
+  color: #d42828;
+}
 
 ul {
   list-style: none;
