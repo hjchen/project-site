@@ -1,9 +1,9 @@
-@import "compass/support";
-@import "compass/utilities/general/clearfix";
-@import "compass/css3";
-@import "compass/typography/vertical_rhythm";
+@import "compass/vertical-rhythm";
+@import "compass/text-shadow";
 
-@import "jeet/index";
+@import "jeet/settings";
+@import "jeet/functions";
+@import "jeet/grid";
 
 @import "base/normalize";
 
