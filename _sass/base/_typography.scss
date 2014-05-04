@@ -31,8 +31,12 @@ a {
 }
 
 ul {
-  list-style: none;
+  list-style: none outside none;
   padding: 0;
+}
+
+strong {
+  font-weight: 700;
 }
 
 .underline {

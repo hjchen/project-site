@@ -15,13 +15,13 @@ $h5-font-size: 0.83 * $base-font-size;
 $h6-font-size: 0.67 * $base-font-size;
 
 // Font-stacks
-@import url(http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic|Slackey);
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700|Slackey);
 
-$ropa:         "Ropa Sans", "Lucida Console", monospace, sans-serif;
+$monda:         "Monda", "Lucida Console", monospace, sans-serif;
 $slackey:      "Slackey", "Apple Chancery", "Monotype Corsiva", Georgia, cursive;
 
 // Font Variables
-$font-body:        $ropa;
+$font-body:        $monda;
 $font-header:      $slackey;
 
 // Colors, etc.

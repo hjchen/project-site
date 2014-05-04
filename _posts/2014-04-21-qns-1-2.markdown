@@ -6,13 +6,13 @@ date:   2014-04-21
 category: week-1
 ---
 
-<p>My list of gaps.</p> <!-- more -->
+<p><strong>My list of gaps.</strong></p> <!-- more -->
 <ol>
   <li>A way to organise all the different charging cables and accessories for gadgets</li>
   <li>A way to control my light switch from my bed</li>
   <li>Something that ensures I don't forget my keys, wallet and phone</li>
   <li>A library of files that allow me to start new website projects quickly.</li>
-  <li>&#9733; A cheap standing desk solution that also has some cable organisation built-in. &#9733;</li>
+  <li>&#9733; A cheap standing desk solution that also has some cable organisation built-in.</li>
   <li>A workout that can be done in the office to counter the effects of sitting all day.</li>
   <li>A faster way to make my bed every morning.</li>
   <li>A more efficient way to hang my laundry to dry.</li>

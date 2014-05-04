@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Week 1"
+subtitle: "Homework #1"
 date:   2014-04-21
 category: page
 ---

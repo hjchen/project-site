@@ -1,5 +1,4 @@
 @import "compass/vertical-rhythm";
-@import "compass/text-shadow";
 
 @import "jeet/settings";
 @import "jeet/functions";
@@ -15,5 +14,7 @@
 @import "base/typography";
 @import "base/layout";
 
+@import "components/tabs";
+@import "components/lists";
+
 @import "sections/home";
-@import "sections/tabs";

@@ -2,7 +2,6 @@
 layout: post
 title:  "My Gap"
 date:   2014-04-21
-category: page
 ---
 
 <p>My Gap: A cheap standing desk solution that also has some cable organisation built-in.</p>

@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "Question 2.2"
+subtitle: "User Needs"
+date:   2014-04-28
+category: week-2
+---
+<p>The gap is how to create a standing desk add-on with easily available materials, with some built in cable management and other basic organisational features.</p> <!-- more -->
+
+<p><strong>List of user needs</strong></p>
+
+<ul class="nested user-needs">
+  <li>The add-on is inexpensive.</li>
+    <ul>
+      <li>The add-on is made of wood.</li>
+      <li>The add-on is made from recycled materials.</li>
+    </ul>
+  </li>
+  <li>The add-on is low maintenance.</li>
+    <ul>
+      <li>The add-on is easy to clean.</li>
+      <li>The add-on is easy to put together.</li>
+    </ul>
+  </li>
+  <li>The add-on is wide enough for large monitors.</li>
+    <ul>  
+      <li>The add-on has space for speakers.</li>
+    </ul>
+  </li>
+  <li>The add-on is light-weight.</li>
+    <ul>
+      <li>The add-on is easy to carry and adjust.</li>
+      <li>The add-on can be disassembled.</li>
+      <li>The add-on can be moved to other desks easily.</li>
+    </ul>  
+  </li>
+  <li>The add-on is made from strong materials.</li>   
+    <ul>
+      <li>The add-on is stable enough for large monitors.</li>
+      <li>The add-on is sturdy enough to support the weight of large monitors.</li>
+    </ul>
+  </li>
+  <li>The add-on provides an ergonomic standing position while working.</li>
+    <ul>
+      <li>The add-on can be adjusted for different heights.</li>
+      <li>The add-on has 2 levels so the screen can be at eye level while the keyboard is at bent-elbow level.</li>
+      <li>The add-on can cater for sitting positions.</li>
+      <li>The add-on has a keyboard tray.</li>
+    </ul>
+  </li>
+  <li>The add-on helps with workstation organisation.</li>
+    <ul>
+      <li>The add-on can organise my workstation to look neater.</li>
+      <li>The add-on has cable management at the back.</li>
+      <li>The add-on has cable pass-throughs.</li>
+      <li>The add-on has gadget stands.</li>
+      <li>The add-on has a charging station for gadgets.</li>
+      <li>The add-on has a pen-holder.</li>
+      <li>The add-on has a bookstand.</li>
+    </ul>
+  </li>
+  <li>The add-on looks like it's part of the office furniture.</li>
+  <li>The add-on can also be a shelf.</li>
+</ul>
+<p><strong>Week 2 Questions</strong></p>
+<ul>
+  {% for post in site.categories.week-2 reversed %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

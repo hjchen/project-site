@@ -1,0 +1,16 @@
+.nested {
+  list-style: disc inside none;
+  font-weight: 700;
+  ul {
+    list-style: circle outside none;
+    margin-left: rhythm(1.5);
+    margin-bottom: rhythm(0.5);
+    font-weight: 400;
+    li {
+      margin-top: 0;
+    }
+  }
+  li {
+    margin-top: rhythm(0.5);
+  }
+}

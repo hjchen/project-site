@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Question 2.1"
+subtitle: "Design Problem Definition"
+date:   2014-04-28
+category: week-2
+---
+<p><strong>List of problem statements</strong></p> <!-- more -->
+
+<p>In what way might I...</p>
+<ul>
+  <li>improve the health of people who sit a lot</li>
+  <li>counter the negative effects of sitting all day</li>
+  <li>encourage people to stand instead of sit while working</li>
+  <li>make standing desks accessible and multi-purpose</li>
+  <li>*create a standing desk add-on to existing desks with organisational features</li>
+  <li>use easily available materials to assemble an add-on with cable management</li>
+</ul>
+
+<p><strong>Week 2 Questions</strong></p>
+<ul>
+  {% for post in site.categories.week-2 reversed %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

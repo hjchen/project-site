@@ -3,9 +3,9 @@ body {
 }
 
 nav {
-  @include column(1/3);
+  @include col(1/3);
 }
 
-.post {
-  @include column(2/3);
+article {
+  @include col(2/3);
 }
