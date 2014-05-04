@@ -17,7 +17,7 @@ category: week-1
   <figcaption>Back view of prototype</figcaption>
 </figure>
 
-<p>Week 1 Questions</p>
+<p><strong>Week 1 Questions</strong></p>
 <ul>
   {% for post in site.categories.week-1 reversed %}
   <li>
