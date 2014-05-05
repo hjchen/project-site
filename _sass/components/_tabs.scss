@@ -53,67 +53,18 @@
   }
 }
 
-#tab1 {
-  &:checked {
-    + label {
-      background: $red;
-    }
+@each $color-key, $color-value in $colors {
+  .#{$color-key}.tab-head:checked + label {
+    background: $color-value; 
   }
-}
-
-#tab2 {
-  &:checked {
-    + label {
-      background: $orange;
-    }
-  }
-}
-
-#tab3 {
-  &:checked {
-    + label {
-      background: $yellow;
-    }
-  }
-}
-
-#tab4 {
-  &:checked {
-    + label {
-      background: $green;
-    }
-  }
-}
-
-#tab5 {
-  &:checked {
-    + label {
-      background: $blue;
-    }
-  }
-}
-
-#tab6 {
-  &:checked {
-    + label {
-      background: $indigo;
-      color: white;
-    }
-  }
-}
-
-#tab7 {
-  &:checked {
-    + label {
-      background: $violet;
-    }
-  }
-}
-
-#tab8 {
-  &:checked {
-    + label {
-      background: $brown;
+  .#{$color-key}.tab-body {
+    border-top: $color-value $tab-delimiter-line-height solid;
+    a {
+      &:hover, 
+      &:focus, 
+      &:active {
+        color: $color-value;
+      }
     }
   }
 }
@@ -131,38 +82,6 @@
   border-bottom-left-radius: 10px;
   border-top-right-radius: 5px;
   @include animation(0.2s, 1.5s, show);
-}
-
-#tab-body-1 {
-  border-top: $red $tab-delimiter-line-height solid;
-}
-
-#tab-body-2 {
-  border-top: $orange $tab-delimiter-line-height solid;
-}
-
-#tab-body-3 {
-  border-top: $yellow $tab-delimiter-line-height solid;
-}
-
-#tab-body-4 {
-  border-top: $green $tab-delimiter-line-height solid;
-}
-
-#tab-body-5 {
-  border-top: $blue $tab-delimiter-line-height solid;
-}
-
-#tab-body-6 {
-  border-top: $indigo $tab-delimiter-line-height solid;
-}
-
-#tab-body-7 {
-  border-top: $violet $tab-delimiter-line-height solid;
-}
-
-#tab-body-8 {
-  border-top: $brown $tab-delimiter-line-height solid;
 }
 
 #tab1:checked ~ .tab-body-wrapper #tab-body-1,
