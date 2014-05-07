@@ -44,7 +44,7 @@ category: week-2
     <ul>
       <li>The add-on can be adjusted for different heights.</li>
       <li>The add-on has 2 levels so the screen can be at eye level while the keyboard is at bent-elbow level.</li>
-      <li>The add-on can cater for sitting positions.</li>
+      <li>! The add-on can cater for sitting positions.</li>
       <li>The add-on has a keyboard tray.</li>
     </ul>
   </li>
@@ -54,13 +54,13 @@ category: week-2
       <li>The add-on has cable management at the back.</li>
       <li>The add-on has cable pass-throughs.</li>
       <li>The add-on has gadget stands.</li>
-      <li>The add-on has a charging station for gadgets.</li>
+      <li>! The add-on has a charging station for gadgets.</li>
       <li>The add-on has a pen-holder.</li>
       <li>The add-on has a bookstand.</li>
     </ul>
   </li>
-  <li>The add-on looks like it's part of the office furniture.</li>
-  <li>The add-on can also be a shelf.</li>
+  <li>! The add-on looks like it's part of the office furniture.</li>
+  <li>! The add-on can also be a shelf.</li>
 </ul>
 <p><strong>Week 2 Questions</strong></p>
 <ul>
