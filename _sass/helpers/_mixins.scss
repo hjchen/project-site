@@ -1,24 +1,12 @@
 // Set breakpoints.
-@mixin bp($point) {
-  @if $point == xlarge {
-    @media (min-width: 1700px) {
+@mixin bp($name) {
+  @if map-has-key($breakpoints, $name) {
+    @media #{inspect(map-get($breakpoints, $name))} {
       @content;
     }
   }
-  @else if $point == large {
-   @media (min-width: 900px) {
-      @content;
-    }
-  }
-  @else if $point == med {
-   @media (min-width: 600px) {
-      @content;
-    }
-  }
-  @else if $point == small {
-   @media (min-width: 290px) {
-      @content;
-    }
+  @else {
+    @warn "Couldn't find a breakpoint named `#{$name}`.";
   }
 }
 

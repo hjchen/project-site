@@ -1,6 +1,6 @@
 name: Project Website
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 baseurl: /project-site
 
 relative_permalinks: false

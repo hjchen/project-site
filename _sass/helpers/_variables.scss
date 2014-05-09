@@ -57,3 +57,10 @@ $nav-height: 3em;
 // Tab styling.
 $tab-delimiter-line-height: 5px;
 $tab-label-height: 3em;
+
+//Set breakpoints.
+$breakpoints: (
+  small: (min-width: 768px),
+  med: (min-width: 1080px),
+  large: (min-width: 1200px)
+);

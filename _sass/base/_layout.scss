@@ -1,5 +1,9 @@
 body {
+  text-align: center;
   @include center(960px);
+  @include bp(med) {
+    text-align: left;
+  }
 }
 
 nav {

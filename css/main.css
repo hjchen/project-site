@@ -448,6 +448,7 @@ strong {
 }
 
 body {
+  text-align: center;
   *zoom: 1;
   width: auto;
   max-width: 960px;
@@ -464,6 +465,11 @@ body:before, body:after {
 }
 body:after {
   clear: both;
+}
+@media (min-width: 1080px) {
+  body {
+    text-align: left;
+  }
 }
 
 nav {
@@ -576,7 +582,7 @@ article:last-child {
 .hide {
   display: none;
 }
-@media (min-width: 600px) {
+@media (min-width: 1080px) {
   .hide {
     display: inline;
   }
