@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Question 3.2"
+subtitle: "Visual Expression III: 2-point Perspective"
+date:   2014-05-05
+category: week-3
+---
+<p>2-point perspective sketch of a chair.</p> <!-- more -->
+<img src="{{ site.baseurl }}/img/2-point.jpg" alt="2 point perspective sketch of chair">
+<p>5 boxes in 2-point persepctive.</p> <!-- more -->
+<img src="{{ site.baseurl }}/img/5-boxes.jpg" alt="5 boxes in 2-point perspective">
+
+
+<p><strong>Week 3 Questions</strong></p>
+<ul>
+  {% for post in site.categories.week-3 reversed %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>

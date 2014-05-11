@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Question 3.1"
+subtitle: "Exploration: 10 concepts"
+date:   2014-05-05
+category: week-3
+---
+<p>Decomposition of the design problem by latent needs.</p> <!-- more -->
+<img src="{{ site.baseurl }}/img/decomposition.jpg" alt="Decomposition by latent needs">
+
+<p><strong>Week 3 Questions</strong></p>
+<ul>
+  {% for post in site.categories.week-3 reversed %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
