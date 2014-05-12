@@ -23,3 +23,8 @@
   animation-name: $animation;
   animation-fill-mode: forwards;
 }
+
+//Math functions
+@function em($px, $base: $base-font-size) {
+    @return ($px / $base) * 1em;
+}

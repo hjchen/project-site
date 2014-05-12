@@ -739,6 +739,18 @@ article:last-child {
   margin-top: 0.75em;
 }
 
+.nav-primary li {
+  border: 1px solid #ccc;
+}
+.nav-primary li img {
+  vertical-align: middle;
+  margin-right: 0.75em;
+}
+.nav-primary li li {
+  border: none;
+  text-indent: 5.4375em;
+}
+
 .gap {
   text-align: center;
 }

@@ -1,0 +1,13 @@
+.nav-primary {
+  li {
+    border: 1px solid #ccc;
+    img {
+      vertical-align: middle;
+      margin-right: rhythm(0.5);
+    }
+    li {
+      border: none;
+      text-indent: em(75px) + rhythm(0.5);
+    }
+  }
+}

@@ -5,8 +5,49 @@ subtitle: "Exploration: 10 concepts"
 date:   2014-05-05
 category: week-3
 ---
-<p>Decomposition of the design problem by latent needs.</p> <!-- more -->
+<p><strong>Decomposition of the design problem by latent needs.</strong></p> <!-- more -->
 <img src="{{ site.baseurl }}/img/decomposition.jpg" alt="Decomposition by latent needs">
+
+<p><strong>10 concept sketches of a standing desk add-on</strong></p>
+<figure>
+  <img src="{{ site.baseurl }}/img/concept-sketch-1.jpg" alt="Concept sketch A & B">
+  <figcaption>
+    <p>A: Slide shelf style A</p>
+    <p>B: Foldable style</p>
+  </figcaption>
+</figure> 
+
+<figure>
+  <img src="{{ site.baseurl }}/img/concept-sketch-2.jpg" alt="Concept sketch C & D">
+  <figcaption>
+    <p>C: Slidable height style A</p>
+    <p>D: Pedestal style</p>
+  </figcaption>
+</figure> 
+
+<figure>
+  <img src="{{ site.baseurl }}/img/concept-sketch-3.jpg" alt="Concept sketch E & F">
+  <figcaption>
+    <p>E: Fold-down style</p>
+    <p>F: Slidable + Fold-down hybrid style</p>
+  </figcaption>
+</figure> 
+
+<figure>
+  <img src="{{ site.baseurl }}/img/concept-sketch-4.jpg" alt="cConcept sketch G & H">
+  <figcaption>
+    <p>G: Slidable height style B</p>
+    <p>H: Slide shelf style B</p>
+  </figcaption>
+</figure> 
+
+<figure>
+  <img src="{{ site.baseurl }}/img/concept-sketch-5.jpg" alt="Concept sketch I & J">
+  <figcaption>
+    <p>I: Add-on leg style A</p>
+    <p>J: Add-on leg style B</p>
+  </figcaption>
+</figure> 
 
 <p><strong>Week 3 Questions</strong></p>
 <ul>

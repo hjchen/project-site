@@ -1,8 +1,8 @@
 <nav class="nav-primary" role="navigation" >
   <ul>
-    <li><a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/img/home.png" alt="Home icon"><strong>Home</strong></a></li>
-    <li><a href="{{ site.baseurl }}/my-gap.html"><img src="{{ site.baseurl }}/img/gap.png" alt="Gap icon"><strong>My Gap</strong></a></li>
-    <li><img src="{{ site.baseurl }}/img/assignment.png" alt="Assignment icon"><strong>Weekly Assignments</strong></li>
+    <li class="menu-home"><a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/img/home.png" alt="Home icon"><strong>Home</strong></a></li>
+    <li class="menu-gap"><a href="{{ site.baseurl }}/my-gap.html"><img src="{{ site.baseurl }}/img/gap.png" alt="Gap icon"><strong>My Gap</strong></a></li>
+    <li class="menu-assignment"><img src="{{ site.baseurl }}/img/assignment.png" alt="Assignment icon"><strong>Weekly Assignments</strong></li>
     <li>
       <ul>
         {% for post in site.categories.page reversed %}
